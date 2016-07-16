@@ -1,0 +1,49 @@
+@import 'https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800';
+@import 'skeleton.css';
+$gray: #374046;
+$white: rgba(255, 255, 255, 1);
+$semiWhite: rgba(255, 255, 255, .8);
+$shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.16);
+$header-height: 72px;
+body {
+    color: $white;
+    font-family: 'Assistant', sans-serif;
+    background-color: teal;
+    a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+            color: $semiWhite;
+        }
+    }
+}
+
+#name {
+    font-weight: 700;
+    font-size: 28px;
+    display: block;
+}
+
+#description {
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    margin-top: -8px;
+}
+
+header {
+    display: block;
+    height: $header-height;
+    background-color: $gray;
+    box-shadow: $shadow;
+}
+
+.section {
+    height: calc(100vh - #{$header-height});
+}
+
+@media screen and (min-width: 1023px) {
+    .navlinks {
+        display: none;
+    }
+}

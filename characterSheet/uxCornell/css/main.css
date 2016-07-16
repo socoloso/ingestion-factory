@@ -1,0 +1,37 @@
+@import "https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800";
+@import url(skeleton.css);
+body {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  background-color: teal; }
+  body a {
+    color: white;
+    text-decoration: none; }
+    body a:hover {
+      color: rgba(255, 255, 255, 0.8); }
+
+#name {
+  font-weight: 700;
+  font-size: 28px;
+  display: block; }
+
+#description {
+  font-weight: 700;
+  font-size: 16px;
+  display: block;
+  margin-top: -8px; }
+
+header {
+  display: block;
+  height: 72px;
+  background-color: #374046;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.16); }
+
+.section {
+  height: calc(100vh - 72px); }
+
+@media screen and (min-width: 1023px) {
+  .navlinks {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
